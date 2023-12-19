@@ -13020,19 +13020,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\7390\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Controlled Folder\\Umbraco\\Digital Agency\\DigitalAgency.Core\\DigitalAgency.Core.csproj",
+      "projectUniqueName": "D:\\Umbraco\\Digital Agency\\DigitalAgency.Core\\DigitalAgency.Core.csproj",
       "projectName": "DigitalAgency.Core",
-      "projectPath": "C:\\Controlled Folder\\Umbraco\\Digital Agency\\DigitalAgency.Core\\DigitalAgency.Core.csproj",
-      "packagesPath": "C:\\Users\\7390\\.nuget\\packages\\",
-      "outputPath": "C:\\Controlled Folder\\Umbraco\\Digital Agency\\DigitalAgency.Core\\obj\\",
+      "projectPath": "D:\\Umbraco\\Digital Agency\\DigitalAgency.Core\\DigitalAgency.Core.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Umbraco\\Digital Agency\\DigitalAgency.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\7390\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13087,7 +13087,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
