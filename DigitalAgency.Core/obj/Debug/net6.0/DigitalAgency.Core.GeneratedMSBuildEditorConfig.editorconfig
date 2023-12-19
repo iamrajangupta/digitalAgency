@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DigitalAgency.Core
-build_property.ProjectDir = C:\Users\Admin\source\repos\DigitalAgency\DigitalAgency.Core\
+build_property.ProjectDir = C:\Controlled Folder\Umbraco\Digital Agency\DigitalAgency.Core\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
