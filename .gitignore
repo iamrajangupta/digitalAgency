@@ -3,3 +3,7 @@
 ################################################################################
 
 /DigitalAgency.Web/appsettings.json
+/.vs/DigitalAgency
+/DigitalAgency.Web/appsettings-schema.json
+/DigitalAgency.Web/appsettings.Development.json
+/DigitalAgency.Web/wwwroot/lib/tinymce/license.txt
