@@ -1,0 +1,118 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Home>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+
+
+@Html.GetBlockListHtml(Model.HomeSectionList)
+
+
+<!-- service section -->
+
+<section id="services">
+    <div class="container text-center">
+        <h1 class="title"> WHAT WE DO ?</h1>
+        <div class="row text-center">
+
+            <div class="col-md-4 services">
+                <img src="~/images/service1.png" class="service-img">
+                <h4>Crowth Marketing</h4>
+                <P>
+                    Lorem ipsum dolor sit amet consectetur. Elit nunc hendrerit turpis scelerisque urna neque. Quis in elementum mauris dis amet metus tellus.
+                </P>
+            </div>
+
+
+            <div class="col-md-4 services">
+                <img src="~/images/service2.png" class="service-img">
+                <h4>Online Branding</h4>
+                <P>
+                    Lorem ipsum dolor sit amet consectetur. Elit nunc hendrerit turpis scelerisque urna neque. Quis in elementum mauris dis amet metus tellus.
+                </P>
+            </div>
+
+            <div class="col-md-4 services">
+                <img src="~/images/service3.png" class="service-img">
+                <h4>Animated Ads</h4>
+                <P>
+                    Lorem ipsum dolor sit amet consectetur. Elit nunc hendrerit turpis scelerisque urna neque. Quis in elementum mauris dis amet metus tellus.
+                </P>
+            </div>
+
+        </div>
+        <button type="button" class="btn btn-primary">All Services</button>
+    </div>
+</section>
+
+
+
+
+<!-- About Us -->
+
+<section id="about-us">
+    <div class="container">
+        <h1 class="title text-center">WHY CHOOSE US ?</h1>
+        <div class="row">
+            <div class="col-md-6 about-us">
+                <p class="about-title">Why we're diffrent</p>
+                <ul>
+                    <li>Belive in doing business with honesty</li>
+                    <li>Belive in doing business with honesty</li>
+                    <li>Belive in doing business with honesty</li>
+                    <li>Belive in doing business with honesty</li>
+                    <li>Belive in doing business with honesty</li>
+                    <li>Belive in doing business with honesty</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="~/images/network.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- testimonial -->
+
+<section id="testimonials">
+    <div class="container">
+        <h1 class="title text-center">WHAT OUR CLIENT SAY</h1>
+        <div class="row offset-1">
+            <div class="col-md-5 testimonials">
+                <P>
+                    Lorem ipsum dolor sit amet consectetur. Elit nunc hendrerit turpis scelerisque urna neque. Quis in elementum mauris dis amet metus tellus.
+                </P>
+                <img src="~/images/user2.jpg">
+                <p class="user-details"><b>BuriBuri</b><b> Co-founder at BuriBuriKingdom</b></p>
+            </div>
+
+            <div class="col-md-5 testimonials">
+                <P>
+                    Lorem ipsum dolor sit amet consectetur. Elit nunc hendrerit turpis scelerisque urna neque. Quis in elementum mauris dis amet metus tellus.
+                </P>
+                <img src="~/images/user2.jpg">
+                <p class="user-details"><b>BuriBuri</b><b> Co-founder at BuriBuriKingdom</b></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Social Media section -->
+
+<section id="social-media">
+    <div class="container text-center">
+        <p class="about-title">FIND US ON SOCIAL MEDIA</p>
+        <div class="social-icons">
+            <a href="#"><img src="~/images/facebook-icon.png"></a>
+            <a href="#"><img src="~/images/instagram-icon.png"></a>
+            <a href="#"><img src="~/images/twitter-icon.png"></a>
+            <a href="#"><img src="~/images/whatsapp-icon.png"></a>
+            <a href="#"><img src="~/images/linkedin-icon.png"></a>
+            <a href="#"><img src="~/images/snapchat-icon.png"></a>
+        </div>
+    </div>
+</section>
+

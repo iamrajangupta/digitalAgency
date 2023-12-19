@@ -1,0 +1,26 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>;
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models;
+@{
+     var content = (ContentModels.MastheadBlockElement)Model.Content;
+}
+
+<!-- banner section -->
+<section id="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+               @* <p class="promo-title">BEST DIGITAL AGENCY</p>
+                <P>
+                    Lorem ipsum dolor sit amet consectetur. Elit nunc hendrerit turpis scelerisque urna neque. Quis in elementum mauris dis amet metus tellus.
+                </P>*@
+                <p>@content.MastheadContent</p>
+                <a href="@content.MastheadVideoCteurl"><img src="~/images/play.png" class="play-btn">@content.MastheadVideoCtetitle</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="~/images/home2.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <img src="~/images/wave1.png" class="bottom-img">
+</section>

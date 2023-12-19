@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Admin\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.6.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Admin\.nuget\packages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)usync.expansions.core\10.6.2\buildTransitive\uSync.Expansions.Core.props" Condition="Exists('$(NuGetPackageRoot)usync.expansions.core\10.6.2\buildTransitive\uSync.Expansions.Core.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.snapshots\10.6.2\buildTransitive\uSync.Snapshots.props" Condition="Exists('$(NuGetPackageRoot)usync.snapshots\10.6.2\buildTransitive\uSync.Snapshots.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.publisher\10.6.2\buildTransitive\uSync.Publisher.props" Condition="Exists('$(NuGetPackageRoot)usync.publisher\10.6.2\buildTransitive\uSync.Publisher.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.peopleedition\10.6.2\buildTransitive\uSync.PeopleEdition.props" Condition="Exists('$(NuGetPackageRoot)usync.peopleedition\10.6.2\buildTransitive\uSync.PeopleEdition.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.exporter\10.6.2\buildTransitive\uSync.Exporter.props" Condition="Exists('$(NuGetPackageRoot)usync.exporter\10.6.2\buildTransitive\uSync.Exporter.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.backoffice.assets\10.6.2\buildTransitive\uSync.BackOffice.Assets.props" Condition="Exists('$(NuGetPackageRoot)usync.backoffice.assets\10.6.2\buildTransitive\uSync.BackOffice.Assets.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Admin\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgLucene_Net Condition=" '$(PkgLucene_Net)' == '' ">C:\Users\Admin\.nuget\packages\lucene.net\4.8.0-beta00016</PkgLucene_Net>
+  </PropertyGroup>
+</Project>

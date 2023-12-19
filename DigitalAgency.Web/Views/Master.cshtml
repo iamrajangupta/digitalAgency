@@ -1,0 +1,94 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency Website Template</title>
+    <link rel="stylesheet" href="~/css/style.css">
+   
+
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</head>
+<body>  
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="images/demo-logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="#top">HOME</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-us">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" href="#footer">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+@RenderBody()
+   <!-- footer section -->
+
+   <section id="footer">
+    <img src="images/wave2.png" class="footer-img">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 footer-box">
+                <img src="images/demo-logo.png">
+                <P>
+                    Lorem ipsum dolor sit amet consectetur. Elit nunc hendrerit turpis scelerisque urna neque. Quis in elementum mauris dis amet metus tellus. 
+                </P>
+            </div>
+
+
+            <div class="col-md-4 footer-box">
+              <p><b>CONTACT US</b></p>
+              <P><i class="fa-solid fa-location-dot"></i> World trade center, UP</P>
+              <P><i class="fa-solid fa-location-dot"></i> +91 9087654331<P>
+              <P><i class="fa-solid fa-location-dot"></i> xyz@gmail.com</P>
+            </div>
+
+            <div class="col-md-4 footer-box">
+                <p><b>SUBSCRIBE NEWSLETTER</b></p>
+                 <input type="email" class="form-control" placeholder="Your Email">
+                 <button type="button" class="btn btn-primary">Subsribe</button>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Website Certified by BuriBuri</p>
+    </div>
+   </section> 
+
+<!-- smooth Scroll -->
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</body>
+</html> 
